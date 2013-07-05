@@ -1,6 +1,6 @@
 #CodeIgniter-CRUD-Model
 
-Be aware this is not mean to be an ORM library. It is a simple base model which 
+Be aware this is not meant to be an ORM library. It is a simple base model which 
 your models can extend to give them supercharged features. This model doesn't
 require you to change how you would natively interact with CodeIgniter's database
 or Active Record class very much. It's not designed to help writing your database
