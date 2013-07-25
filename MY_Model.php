@@ -159,7 +159,8 @@ class MY_Model extends CI_Model {
         $config = array(
             'base_url'   => $base_url,
             'total_rows' => $this->total_rows,
-            'per_page'   => $per_page
+            'per_page'   => $per_page,
+            'uri_segment' => $uri_segment
         );
 
         $this->last_offset = ($this->total_pages * $per_page) - $per_page;
